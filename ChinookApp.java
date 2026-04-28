@@ -60,7 +60,7 @@ public class ChinookApp extends JFrame{
     }
 
     public ChinookApp(){
-        setTitle("Chinook 🎼𝄞🎶-Store ");
+        setTitle("Chinook 🎼𝄞🎶-Store -u25405064@UP ");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1000, 650);
         setLocationRelativeTo(null);
@@ -87,7 +87,7 @@ public class ChinookApp extends JFrame{
         tabs.addTab("Revenue Report", reportTab);
         tabs.addTab("Customers", new CustomerTab());
         tabs.addTab("Recommendations", new RecommendationTab());
-        
+
         tabs.addChangeListener(e -> {
             if (tabs.getSelectedComponent() == reportTab) {
                 reportTab.refreshReport();
