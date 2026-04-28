@@ -1,3 +1,9 @@
+/* 
+COS221 Prac4 By Lwandiso_George(u25405064)
+Title: Chinook music app
+*/
+
+
 import java.awt.*;
 import java.sql.*;
 import javax.swing.*;
