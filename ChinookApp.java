@@ -12,7 +12,7 @@ public class ChinookApp extends JFrame{
 
     private JTextArea textArea;
 
-    private void loadEmployees(String filter){
+    private void loadEmployees(String filter){            //uses enviromental details for sensitive data that may pose a security risk if leaked
         try{
             Class.forName("org.mariadb.jdbc.Driver");
             String host = System.getenv("CHINOOK_DB_HOST");
